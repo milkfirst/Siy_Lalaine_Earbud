@@ -1,0 +1,22 @@
+<model-viewer src="ClassEarbud.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.34" exposure="0.67" shadow-softness="1">
+    <button class="Hotspot" slot="hotspot-4" data-position="-21.376010350139623m -2.2318717342338115m -6.2670614399320606m" data-normal="0.9671467578556744m -0.23261661256576477m -0.10255076951289471m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">LED indicator</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="25.307235013217266m 28.823717645287616m -1.4708958695636936m" data-normal="0.999776192856046m -0.017420752090330397m 0.012003399305106143m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">High-Quality Audio</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="31.886672664347955m 10.605784784769135m -4.468360172175546m" data-normal="0.9997761928560459m -0.017420752090330404m 0.012003399305106025m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Noise-Cancellation</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="22.550728939000635m -0.7900867304961157m -0.23592885655785611m" data-normal="0.9878051960847756m 0.15548799526009477m -0.00802358510363149m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Long Battery Life</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="-7.345202668975446m 21.86398357551591m 0.23689846171356566m" data-normal="0.33435641144007744m 0.9005004735388693m 0.2780372048578858m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Adjustable Fit</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
